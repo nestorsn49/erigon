@@ -19,7 +19,6 @@ require (
 	github.com/anacrolix/sync v0.4.0
 	github.com/anacrolix/torrent v1.46.1-0.20220808053819-61302332cfc5
 	github.com/benesch/cgosymbolizer v0.0.0-20190515212042-bec6fe6e597b
-	github.com/btcsuite/btcd v0.22.0-beta
 	github.com/c2h5oh/datasize v0.0.0-20220606134207-859f65c6625b
 	github.com/consensys/gnark-crypto v0.4.0
 	github.com/crate-crypto/go-ipa v0.0.0-20220523130400-f11357ae11c7
@@ -77,6 +76,8 @@ require (
 	modernc.org/sqlite v1.18.1
 	pgregory.net/rapid v0.4.7
 )
+
+require github.com/btcsuite/btcutil v0.0.0-20190425235716-9e5f4b9a998d // indirect
 
 require (
 	crawshaw.io/sqlite v0.3.3-0.20210127221821-98b1f83c5508 // indirect
